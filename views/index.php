@@ -8,5 +8,6 @@
 </head>
 <body>
 	<h1>Xin chào các bạn</h1>
+	<hr>
 </body>
 </html>
