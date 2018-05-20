@@ -10,8 +10,8 @@ app.set("views", "./views")
 // var io = require("socket.io")(server);
 
 app.get("/",(req,res)=>res.render("home"));
-app.listen(3000,() => console.log("Server Started"));
-// server.listen(process.env.PORT || 3000,() => console.log("Server Started"));
+// app.listen(3000,() => console.log("Server Started"));
+server.listen(process.env.PORT || 3000,() => console.log("Server Started"));
 // server.listen(3000,() => console.log("Server Started"));
 
 
