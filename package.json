@@ -1,10 +1,28 @@
 {
-  "name": "STREAM2005",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
   "dependencies": {
     "ejs": "^2.6.1",
     "express": "^4.16.3"
-  }
+  },
+  "name": "STREAM2005",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hongyanggreat/webRTC20052018.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hongyanggreat/webRTC20052018/issues"
+  },
+  "homepage": "https://github.com/hongyanggreat/webRTC20052018#readme",
+  "description": ""
 }
